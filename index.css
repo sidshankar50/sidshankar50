@@ -22,6 +22,24 @@
     border-bottom: 10px solid;
 }
 
+.person{
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 0px;
+  font-family: monospace;
+}    
+
+.topic{
+  color: black;
+  font-size: 18pt;
+  font-weight: bold;
+  padding: 0px;
+  font-family: monospace;
+  margin-bottom: 12px;
+  border-bottom: 10px solid black;
+}    
+
 .blockQuote{
   background-image: url("Map.jpg");
   color: black;
