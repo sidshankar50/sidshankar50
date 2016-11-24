@@ -578,9 +578,7 @@ $(document).ready(function () {
 			button3.onclick = function() {
 			    source3.style.display = "block";
 				window.on('click touchstart', function(event) {
-					if (event.target == source3) {
-						source3.style.display = "none";
-					}
+					source3.style.display = "none";
 				});
 			}	
 			$("#3").off(click);
