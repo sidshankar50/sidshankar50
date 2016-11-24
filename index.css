@@ -309,6 +309,9 @@
   .info1{
     display: none;
   }
+  .sourceButton{
+	  display: none;
+  }	  
 }
 
 @media screen and (max-width: 769px) {
