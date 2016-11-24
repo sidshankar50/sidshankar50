@@ -60,7 +60,7 @@
 }
 
 .sourceButton:hover{
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .modal-footer {
