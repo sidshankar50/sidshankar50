@@ -582,6 +582,11 @@ $(document).ready(function () {
 						source3.style.display = "none";
 					}
 				}
+				window.on("tap",function(){
+					if (event.target == source1) {
+						source1.style.display = "none";
+					}
+				});
 			}			
 			$("#3").off(click);
 		});
