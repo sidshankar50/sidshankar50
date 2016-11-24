@@ -40,16 +40,11 @@
 
 .close {
     color: black;
+	opacity: 1;
+	padding-top: 10px;
     float: right;
     font-size: 18px;
     font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 .modal-header {
@@ -60,7 +55,7 @@
 }
 
 .modal-body {
-    padding: 2px 16px;
+    padding: 26px;
     font-family: Garamond;
 }
 
@@ -69,7 +64,7 @@
 }
 
 .modal-footer {
-    padding: 2px 16px;
+    padding: 20px;
     background-color: black;
     color: white;
     font-family: monospace;
