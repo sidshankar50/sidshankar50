@@ -577,17 +577,11 @@ $(document).ready(function () {
 			);
 			button3.onclick = function() {
 			    source3.style.display = "block";
-				window.onclick = function(event) {
+				window.on('click touchstart', function(event) {
 					if (event.target == source3) {
 						source3.style.display = "none";
 					}
-				}
-				window.on("tap",function(){
-					if (event.target == source1) {
-						source1.style.display = "none";
-					}
-				});
-			}			
+				}			
 			$("#3").off(click);
 		});
 	</script>
