@@ -537,82 +537,7 @@ $(document).ready(function () {
 		});
 	</script>
 <script>
-		var paused = false;
-		$(".crop-img").click(function(){
-			$("#bigImage").attr('src',
-				$(this).attr('src'));
-		});
-		$("#image1").click(function(){
-			$("#caption").html(
-				"View of Tripoli from around the the corner of HTSW."
-			);
-		});
-		$("#image2").click(function(){
-			$("#caption").html(
-				"A deteriorating doorway facing the street."
-			);
-		});
-		$("#image3").click(function(){
-			$("#caption").html(
-				"The door of HSTW is the one at the bottom of these stairs."
-			);
-		});
-		$("#image4").click(function(){
-			$("#caption").html(
-				"A safe playspace for the chidren, surrounded by greenery."
-			);
-		});
-		$("#image5").click(function(){
-			$("#caption").html(
-				"image5."
-			);
-		});
-		$("#image6").click(function(){
-			$("#caption").html(
-				"image6."
-			);
-		});
-		$("#image7").click(function(){
-			$("#caption").html(
-				"image7."
-			);
-		});
-		$("#image8").click(function(){
-			$("#caption").html(
-				"image8."
-			);
-		});
-		$("#image9").click(function(){
-			$("#caption").html(
-				"image9."
-			);
-		});
-		$("#image10").click(function(){
-			$("#caption").html(
-				"image10."
-			);
-		});
-		$("#image11").click(function(){
-			$("#caption").html(
-				"image11."
-			);
-		});
-		var counter = 1;
-		$("#image"+counter).click();
-		$("#backward").click(function (){
-			counter = counter - 1;
-			if(counter < 1){
-				counter = 11;
-			}
-			$("#image"+counter).click();
-		});
-		$("#forward").click(function (){
-			counter = counter + 1;
-			if(counter > 11){
-				counter = 1;
-			}
-			$("#image"+counter).click();
-		});
+		
 	</script>
 	<script type="text/javascript">
 		$("#2").click(function(){
@@ -709,7 +634,83 @@ $(document).ready(function () {
 						source4.style.display = "none";
 					}
 				}
-			}			
+			}
+			var paused = false;
+			$(".crop-img").click(function(){
+				$("#bigImage").attr('src',
+					$(this).attr('src'));
+			});
+			$("#image1").click(function(){
+				$("#caption").html(
+					"View of Tripoli from around the the corner of HTSW."
+				);
+			});
+			$("#image2").click(function(){
+				$("#caption").html(
+					"A deteriorating doorway facing the street."
+				);
+			});
+			$("#image3").click(function(){
+				$("#caption").html(
+					"The door of HSTW is the one at the bottom of these stairs."
+				);
+			});
+			$("#image4").click(function(){
+				$("#caption").html(
+					"A safe playspace for the chidren, surrounded by greenery."
+				);
+			});
+			$("#image5").click(function(){
+				$("#caption").html(
+					"image5."
+				);
+			});
+			$("#image6").click(function(){
+				$("#caption").html(
+					"image6."
+				);
+			});
+			$("#image7").click(function(){
+				$("#caption").html(
+					"image7."
+				);
+			});
+			$("#image8").click(function(){
+				$("#caption").html(
+					"image8."
+				);
+			});
+			$("#image9").click(function(){
+				$("#caption").html(
+					"image9."
+				);
+			});
+			$("#image10").click(function(){
+				$("#caption").html(
+					"image10."
+				);
+			});
+			$("#image11").click(function(){
+				$("#caption").html(
+					"image11."
+				);
+			});
+			var counter = 1;
+			$("#image"+counter).click();
+			$("#backward").click(function (){
+				counter = counter - 1;
+				if(counter < 1){
+					counter = 11;
+				}
+				$("#image"+counter).click();
+			});
+			$("#forward").click(function (){
+				counter = counter + 1;
+				if(counter > 11){
+					counter = 1;
+				}
+				$("#image"+counter).click();
+			});
 			$("#4").off(click);
 		});
 	</script>
