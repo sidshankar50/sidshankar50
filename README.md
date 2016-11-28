@@ -12,6 +12,10 @@ This repository was created as a self-imposed challenge to avoid traditional hos
 
 Sid Shankar, with assistance from Vivek Ramesh.
 
+## Contact
+
+Email info@projectbreakthecycle.com with any comments or questions.
+
 ## License
 
 No formal licensing available, just provide credit where due.
