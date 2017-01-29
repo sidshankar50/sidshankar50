@@ -358,7 +358,13 @@
   }
     .instru{
         font-size: 18pt;
-  }      
+  }
+  #maintext1{
+	font-size: 12pt;
+  }
+  #maintext2{
+	font-size: 12pt;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
