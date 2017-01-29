@@ -364,8 +364,8 @@
   #maintext2{
 	font-size: 14pt;
   }
-  .blockQuote, .blockQuote2{
-	margin: 0px;
+  #tbp{
+	background-image: url("mobilebackground.png");
   }
 }
 
