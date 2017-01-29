@@ -365,6 +365,9 @@
   #maintext2{
 	font-size: 14pt;
   }
+  .afo, .afoselect, .blockQuote, .blockQuote2, .toprightmain{
+	 padding: 0px; 
+  }	  
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
