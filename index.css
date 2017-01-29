@@ -5,7 +5,7 @@
 #tbp{
   min-height: 100%;
   min-width: 100%;
-  background-image: url("Map.jpg");
+  background-image: url("forest.png");
   background-attachment: fixed;
   color: black;
 }
