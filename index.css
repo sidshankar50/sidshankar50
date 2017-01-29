@@ -364,7 +364,10 @@
   }
   #maintext2{
 	font-size: 14pt;
-  }	  
+  }
+  .blockQuote, .blockQuote2{
+	margin: 0px;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
