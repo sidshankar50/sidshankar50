@@ -15,21 +15,3 @@
     display: none;
   }  
 }
-
-#mobileback, #deskback{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
-
-.volumes{
-  font-size: 18pt;
-  font-family: monospace;
-  color: black;
-  background-color: white;
-  margin-top: 30%;
-  padding: 4%;
-  font-weight: bold;
-  text-align: center;
-}
