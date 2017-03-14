@@ -6,11 +6,11 @@
 }
 
 .volumes{
-  font-size: 12pt;
+  font-size: 10pt;
   font-family: monospace;
   color: black;
   background-color: white;
-  margin-top: 60%;
+  margin-top: 10%;
   padding: 4%;
   font-weight: bold;
   text-align: center;
