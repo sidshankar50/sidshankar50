@@ -2,12 +2,18 @@
   #mobileback {
     display: none;
   }
+  #mobilenav{
+    display: none;
+  }
 }
 
 @media (max-width: 899px) {
   #deskback {
     display: none;
   }
+  #desknav{
+    display: none;
+  }  
 }
 
 #mobileback, #deskback{
