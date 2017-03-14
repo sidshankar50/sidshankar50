@@ -21,3 +21,9 @@
 #spacer{
   margin-top: 50%;
 }
+
+@media (min-width: 560px) {
+  .volumes{
+    font-size: 14pt;
+  }
+}
