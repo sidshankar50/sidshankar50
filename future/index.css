@@ -75,7 +75,7 @@ a:hover{
 
 a{
   text-decoration: none;
-  color: #4c4cff;
+  color: inherit;
 }
 
 #feed{
