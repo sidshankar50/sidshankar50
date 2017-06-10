@@ -8,6 +8,7 @@
   font-size: 1em;
   font-family: monospace;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
@@ -43,6 +44,7 @@
   font-family: "PT Mono", sans-serif;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .info{
@@ -55,7 +57,8 @@
   font-size: 1em;
   font-family: "PT Mono", sans-serif;
   text-align: left;
-  margin: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   padding: 20px;
 }
 
