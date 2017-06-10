@@ -124,6 +124,7 @@ a{
   }
   #feed{
     font-size: 6em;
+    text-align: center;
   }
   .mobile{
     display: none;
