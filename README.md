@@ -14,7 +14,7 @@ Sid Shankar, with assistance from Vivek Ramesh.
 
 ## Contact
 
-Email info@projectbreakthecycle.com with any comments or questions.
+Email sid@projectbreakthecycle.com with any comments or questions.
 
 ## License
 
