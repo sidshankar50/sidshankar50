@@ -236,28 +236,28 @@ a:hover{
 
 @media screen and (min-width: 1600px) {
     .title, .tile {
-        margin-left: 60rem;
-        margin-right: 60rem;
+        margin-left: 62rem;
+        margin-right: 62rem;
     }
 }
 
 @media screen and (min-width: 1680px) {
     .title, .tile {
-        margin-left: 54rem;
-        margin-right: 54rem;
+        margin-left: 64rem;
+        margin-right: 64rem;
     }
 }
 
 @media screen and (min-width: 1920px) {
     .title, .tile {
-        margin-left: 54rem;
-        margin-right: 54rem;
+        margin-left: 76rem;
+        margin-right: 76rem;
     }
 }
 
 @media screen and (min-width: 2560px) {
     .title, .tile {
-        margin-left: 54rem;
-        margin-right: 54rem;
+        margin-left: 108rem;
+        margin-right: 108rem;
     }
 }
