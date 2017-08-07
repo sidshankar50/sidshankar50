@@ -1,309 +1,105 @@
 <html>
   <head>
-    <title>The Bridge Papers</title>
+    <title>TsmMW</title>
     <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="jquery.jkit.1.2.16.min.js"></script>
+    <script type="text/javascript" src="jquery.jkit.1.2.112.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Mono" rel="stylesheet">
   </head>
-  <body id="background">
-    <div class="desktop">
-    <div class="container">
-      <div class="col-xs-2"></div>
-      <div class="col-sm-4">
-        <div id="feed" style="margin-top: 20px;">Future</div>
-        <div class="tile" id="8">08</div>
-        <div class="tile" id="6">06</div>
-        <div class="tile" id="4">04</div>
-        <div class="tile" id="2">02</div>
-      </div>
-      <div class="col-sm-4">
-        <div id="maintile">
-          <div id="navlinks"><a href="http://thebridgepapers.com">home</a> | <a href="http://thebridgepapers.com/allforone">vol 1</a> | <a href="http://www.thebridgepapers.com">pbtc</a></div><br>
-          <div id="cat2">Please click a tile to view the corresponding article.</div><br>
-          <div id="cat4" style="font-style: italic;">The future is urban. And smart, fast, and scary. Welcome, the future is here.</div>
+  <body>
+    <div class="slide" id="two">
+      <div class="">
+        <div class=" ">
+          <div class=" ">
+            <div class="tile about  column">
+              <div class="headline">ABOUT</div>
+              <div class="description"></div>
+            </div>
+          </div>
+          </div>
+            <div class=" ">
+          <div class=" ">
+            <div class="tile contact column">
+              <div class="headline">CONTACT</div>
+              <div class="description"></div>
+            </div>
+          </div><div id="scrollTo"></div>
         </div>
-        <div class="tile" id="7">07</div>
-        <div class="tile" id="5">05</div>
-        <div class="tile" id="3">03</div>
-        <div class="tile" id="1">01</div>
-      </div>
-      <div class="col-xs-2"></div>
-    </div>
-    <script>
-    $( "#8" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>08</div>\
-      <div class='title'>WRITE FOR US</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "08" );
-      });
-    });
-    $( "#7" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>07</div>\
-      <div class='title'>PAPER SEVEN</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "07" );
-      });
-    });
-    $( "#6" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>06</div>\
-      <div class='title'>PAPER SIX</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "06" );
-      });
-    });
-    $( "#5" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>05</div>\
-      <div class='title'>PAPER FIVE</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "05" );
-      });
-    });
-    $( "#4" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>04</div>\
-      <div class='title'>PAPER FOUR</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "04" );
-      });
-    });
-    $( "#3" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>03</div>\
-      <div class='title'>PROSTHETICS</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "03" );
-      });
-    });
-    $( "#2" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>02</div>\
-      <div class='title'>SPACE TRAVEL</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "02" );
-      });
-    });
-    $( "#1" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>01</div>\
-      <div class='title'>CYBERSECURITY</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>COMING SOON: The connected world increases the reach of the everyman to face the powers that be. At the same time, governments and criminals exploit the vulnerabilities and undermine the 20th century's greatest export.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "01" );
-      });
-    });
-    </script>
-  </div>
-  <div class="mobile">
-    <div class="container">
-      <div class="col-sm-6">
-        <div id="feed" style="margin-top: 20px;">Future</div>
-        <div id="maintile">
-          <div id="navlinks"><a href="http://thebridgepapers.com">home</a> | <a href="http://thebridgepapers.com/allforone">about</a> | <a href="http://www.projectbreakthecycle.com">pbtc</a></div><br>
-          <div id="cat2">Please click a tile to view the corresponding article.</div><br>
-          <div id="cat4" style="font-style: italic;">The future is urban. And smart, fast, and scary. Welcome, the future is here.</div>
+        <div class=" ">
+          <div class=" ">
+            <div class="title">
+              Volume Two: Future
+              <p class="info">INFORMATION</p>
+            </div>
+          </div>
         </div>
-        <div class="tile" id="8m">08</div>
-        <div class="tile" id="7m">07</div>
-        <div class="tile" id="6m">06</div>
-        <div class="tile" id="5m">05</div>
-        <div class="tile" id="4m">04</div>
-        <div class="tile" id="3m">03</div>
-        <div class="tile" id="2m">02</div>
-        <div class="tile" id="1m">01</div>
+        <div class=" ">
+          <div class=" ">
+            <div class="tile column" style="background-color: #f5d46c;">
+              <div class="headline">CYBERSECURITY</div>
+              <div class="description">The connected world increases the reach of the everyman to face the powers that be. At the same time, governments and criminals exploit the vulnerabilities and undermine the 20th century's greatest export.</div>
+            </div>
+          </div>
+        </div>
+            <div class=" ">
+          <div class=" ">
+            <div class="tile  columnRight" style="background-color: #f6d87a;">
+              <div class="headline">SPACE TRAVEL</div>
+              <div class="description">Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>
+            </div>
+          </div>
+        </div>
+        <div class=" ">
+          <div class=" ">
+            <div class="tile  column" style="background-color: #f7dc89;">
+              <div class="headline">BIONIC ARM</div>
+              <div class="description">Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>
+            </div>
+          </div>
+          </div>
+            <div class=" ">
+          <div class=" ">
+            <div class="tile  columnRight" style="background-color: #f8e098;">
+              <div class="headline">PAPER FOUR</div>
+              <div class="description">Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>
+            </div>
+          </div>
+          </div>
+        <div class=" ">
+          <div class=" ">
+            <div class="tile  column" style="background-color: #f9e5a6;">
+              <div class="headline">PAPER FIVE</div>
+              <div class="description">Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>
+            </div>
+          </div>
+          </div>
+            <div class=" ">
+          <div class=" ">
+            <div class="tile  columnRight" style="background-color: #fae9b5;">
+              <div class="headline">PAPER SIX</div>
+              <div class="description">Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>
+            </div>
+          </div>
+        </div>
+        <div class=" ">
+          <div class=" ">
+            <div class="tile  column" style="background-color: #fbedc4;">
+              <div class="headline">PAPER SEVEN</div>
+              <div class="description">Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>
+            </div>
+          </div>
+          </div>
+          <div class=" ">
+          <div class=" ">
+            <div class="tile  columnRight" style="background-color: #fcf2d2;">
+              <div class="headline">PAPER EIGHT</div>
+              <div class="description">Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <script>
-    $( "#8m" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>08</div>\
-      <div class='title'>WRITE FOR US</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "08" );
-      });
-    });
-    $( "#7m" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>07</div>\
-      <div class='title'>PAPER SEVEN</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "07" );
-      });
-    });
-    $( "#6m" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>06</div>\
-      <div class='title'>PAPER SIX</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "06" );
-      });
-    });
-    $( "#5m" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>05</div>\
-      <div class='title'>PAPER FIVE</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "05" );
-      });
-    });
-    $( "#4m" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>04</div>\
-      <div class='title'>PAPER FOUR</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "04" );
-      });
-    });
-    $( "#3m" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>03</div>\
-      <div class='title'>PROSTHETICS</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "03" );
-      });
-    });
-    $( "#2m" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>02</div>\
-      <div class='title'>SPACE TRAVEL</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>Contact any of our staff writers [Ayush Shah, Jesus Rivera, Noah Rodelius, Farouk Marhaba, and Sid Shankar] if you want to submit a piece for this volume of The Bridge Papers, or if you have any questions about the project.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "02" );
-      });
-    });
-    $( "#1m" ).mouseenter(function() {
-      $(this).addClass('info');
-  		$(this).removeClass('tile');
-      $(this).html( "\
-      <div class='topleftnumber'>01</div>\
-      <div class='title'>CYBERSECURITY</div>\
-      <hr class='horizontal'></hr>\
-      <div class='description'>COMING SOON: The connected world increases the reach of the everyman to face the powers that be. At the same time, governments and criminals exploit the vulnerabilities and undermine the 20th century's greatest export.</div>\
-      " );
-      $(this).mouseleave(function(){
-        $(this).addClass('tile');
-    		$(this).removeClass('info');
-        $(this).html( "01" );
-      });
-    });
-    </script>
-  </div>
-    <script>
-    $(document).ready(function(){
-    $('#background').mousemove(function(e){
-      var x = -(e.pageX + this.offsetLeft) / 50;
-      $(this).css('background-position', x + 'px ');
-    });
-    });
-    </script>
   </body>
-  </html>
+</html>
