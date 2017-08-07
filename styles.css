@@ -1,0 +1,263 @@
+
+#two{
+  min-width: 100%;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.title{
+  text-align: left;
+  font-family: Helvetica;
+  padding: 2rem;
+  margin: 2rem;
+  color: white;
+  background-color: black;
+  font-size: 2rem;
+  max-width: 40rem;
+  font-weight: 500;
+}
+
+.column{
+  margin-left: 0rem;
+}
+
+.tile{
+  text-align: center;
+  font-family: Helvetica;
+  padding: 1rem;
+  margin: 2rem;
+  color: black;
+  font-size: 1rem;
+  min-height: 30rem;
+  max-width: 40rem;
+}
+
+.about{
+  border: 1px solid black;
+  display: none;
+}
+
+.contact{
+  border: 1px solid black;
+  display: none;
+}
+
+.headline{
+  font-size: 1.7rem;
+  font-weight: 300;
+  padding: 2em;
+}
+
+.headline:hover{
+  font-weight: 900;
+}
+
+.info{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.info:hover{
+  font-weight: 900;
+}
+
+.description{
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 2rem;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 440px) {
+    .title, .tile {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .title, .tile {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .title, .tile {
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .title, .tile {
+        margin-left: 16rem;
+        margin-right: 16rem;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .title, .tile {
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .title, .tile {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .title, .tile {
+        margin-left: 22rem;
+        margin-right: 22rem;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .title, .tile {
+        margin-left: 24rem;
+        margin-right: 24rem;
+    }
+}
+
+@media screen and (min-width: 890px) {
+    .title, .tile {
+        margin-left: 26rem;
+        margin-right: 26rem;
+    }
+}
+
+@media screen and (min-width: 930px) {
+    .title, .tile {
+        margin-left: 28rem;
+        margin-right: 28rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .title, .tile {
+        margin-left: 30rem;
+        margin-right: 30rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .title, .tile {
+        margin-left: 32rem;
+        margin-right: 32rem;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .title, .tile {
+        margin-left: 34rem;
+        margin-right: 34rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .title, .tile {
+        margin-left: 36rem;
+        margin-right: 36rem;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .title, .tile {
+        margin-left: 38rem;
+        margin-right: 38rem;
+    }
+}
+@media screen and (min-width: 1160px) {
+    .title, .tile {
+        margin-left: 40rem;
+        margin-right: 40rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .title, .tile {
+        margin-left: 42rem;
+        margin-right: 42rem;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .title, .tile {
+        margin-left: 44rem;
+        margin-right: 44rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .title, .tile {
+        margin-left: 46rem;
+        margin-right: 46rem;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .title, .tile {
+        margin-left: 48rem;
+        margin-right: 48rem;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    .title, .tile {
+        margin-left: 50rem;
+        margin-right: 50rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .title, .tile {
+        margin-left: 52rem;
+        margin-right: 52rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .title, .tile {
+        margin-left: 54rem;
+        margin-right: 54rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .title, .tile {
+        margin-left: 62rem;
+        margin-right: 62rem;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .title, .tile {
+        margin-left: 64rem;
+        margin-right: 64rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .title, .tile {
+        margin-left: 76rem;
+        margin-right: 76rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .title, .tile {
+        margin-left: 108rem;
+        margin-right: 108rem;
+    }
+}
