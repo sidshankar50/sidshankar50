@@ -10,7 +10,7 @@ This repository was created as a self-imposed challenge to avoid traditional hos
 
 ## Contributors
 
-Sid Shankar, with assistance from Vivek Ramesh.
+Sid Shankar (code), Jesus Rivera, Ayush Shah, Farouk Marhaba, and Noah Rodelius.
 
 ## Contact
 
