@@ -3,6 +3,15 @@
   min-width: 100%;
 }
 
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
 .title{
   text-align: left;
   font-family: Helvetica;
@@ -51,10 +60,6 @@
 }
 
 .info{
-    text-align: left;
-    font-family: Helvetica;
-    color: white;
-    background-color: black;
     font-size: 1rem;
     font-weight: 200;
 }
