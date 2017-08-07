@@ -233,3 +233,31 @@ a:hover{
         margin-right: 54rem;
     }
 }
+
+@media screen and (min-width: 1600px) {
+    .title, .tile {
+        margin-left: 60rem;
+        margin-right: 60rem;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .title, .tile {
+        margin-left: 54rem;
+        margin-right: 54rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .title, .tile {
+        margin-left: 54rem;
+        margin-right: 54rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .title, .tile {
+        margin-left: 54rem;
+        margin-right: 54rem;
+    }
+}
