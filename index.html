@@ -24,25 +24,25 @@
               <p class="info" onclick="showInfo();">INFORMATION</p>
             </div>
             <div class="tile column" style="background-color: #66b266">
-              <a href="http://thebridgepapers.com/allforone/"><div class="headline">ALL FOR ONE</div></a>
-              <div class="description">With topics ranging from flag design to the broken systems of American soccer, this first volume brings together eight parts of our global community. "All for one," the titular reference to Alexandre Dumas, draws every piece towards the theme of solidarity and self-improvement.</div>
-            </div>
+              <a href="http://thebridgepapers.com/future/tallinn.html"><div class="headline">THE BRONZE SOLDIER</div></a>
+              <div class="description">The Cold War-era proxy conflicts that pitted NATO against the USSR in the Afghanistan, Nicaragua, and other places haven’t petered out. Instead, new digital versions are being waged every day in a format that would be genius if it wasn’t so malicious.</div>
+              </div>
             <div class="tile  columnRight" style="background-color: #7fbf7f">
-              <a href="http://thebridgepapers.com/future/"><div class="headline">FUTURE</div></a>
-              <div class="description">Our second volume will explore the world of tomorrow, with pieces about cybersecurity, mind-controlled prostheses, and interplanetary travel. The impossibilities of the past are no obstacle for human innovation. Welcome, the future is here.</div>
+              <a href="https://youtu.be/jP0dIPnyfQk"><div class="headline">THE $500 BIONIC ARM</div></a>
+              <div class="description">The future of prostheses is mind control. Cutting-edge labs are charging exorbitant prices for functionality that a 15 year old can replicate in his basement workshop for a few hundred dollars. We interviewed this Nokia-Bell Labs science fair winner on his innovative proof-of-concept.</div>
             </div>
             <div class="tile  column" style="background-color: #99cc99">
+              <a href="http://thebridgepapers.com/allforone"><div class="headline">ALL FOR ONE</div></a>
+              <div class="description">With topics ranging from flag design to the broken systems of American soccer, this first volume brings together eight parts of our global community. "All for one," the titular reference to Alexandre Dumas, draws every piece towards the theme of solidarity and self-improvement.</div>
+            </div>
+            <div class="tile  columnRight" style="background-color: #b2d8b2">
               <a href="https://github.com/thebridgepapers/thebridgepapers.github.io"><div class="headline">OUR CODE</div></a>
               <div class="description">Our code is fully scripted in-house, and our open-source GitHub repository can be found here.</div>
             </div>
-            <div class="tile  columnRight" style="background-color: #b2d8b2">
+            <div class="tile  column" style="background-color: #cce5cc">
               <a href="http://www.projectbreakthecycle.com"><div class="headline">PBTC</div></a>
               <div class="description">Project Break The Cycle is a registered 501(c)3, and our sister organization. PBTC's mission is to provide under-educated youths in Lebanon with private tutoring and a safe living and learning environment. Please join us for our second fundraiser by purchasing a T-shirt from our Rose collection.</div>
-            </div>
-            <div class="tile  column" style="background-color: #cce5cc">
-              <a href="http://noahrodeli.us"><div class="headline">NOAHRODELI.US</div></a>
-              <div class="description">noahrodeli.us will one day be the blog of one of our staff writers, Noah Rodelius, as he explores issues from psychology and business to international soccer.</div>
-            </div>
+              </div>
         </div>
       <script>
       function showInfo(){
@@ -59,6 +59,11 @@
             $(".about").css("display","none");
             $(".contact").css("display","none");
       			$(".info").off("click");
+      		});
+          $(".info").click(function () {
+      			$(".about").css("display","none");
+            $(".contact").css("display","none");
+            $(".info").off("click");
       		});
       	};
       </script>
