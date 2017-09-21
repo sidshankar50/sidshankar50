@@ -55,6 +55,11 @@ a:hover{
   padding: 2em;
 }
 
+.caption{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
 .headline:hover{
   font-weight: 900;
 }
@@ -69,7 +74,7 @@ a:hover{
 }
 
 .description{
-  text-align: left;
+  text-align: justify;
   font-size: 1.4rem;
   font-weight: 300;
   margin: 2rem;
