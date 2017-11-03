@@ -55,6 +55,12 @@ a:hover{
   padding: 2em;
 }
 
+.modifiedHeadline{
+  font-size: 1.7rem;
+  font-weight: 300;
+  padding: 2em;
+}
+
 .headline:hover{
   font-weight: 900;
 }
@@ -74,6 +80,10 @@ a:hover{
   font-weight: 300;
   margin: 2rem;
   margin-top: 0;
+}
+
+.descriptionLink:hover{
+  font-weight: 700;
 }
 
 @media screen and (min-width: 440px) {
