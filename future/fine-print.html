@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>The Bridge Papers</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+    <link href="articles.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.jkit.1.2.112.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="slide" id="two">
+            <div class="tile contact column">
+              <div class="headline">CONTACT</div>
+              <div class="description">Email us at <a href="mailto:info@thebridgepapers.com">info@thebridgepapers.com</a></div>
+            </div>
+            <div id="scrollTo"></div>
+            <div class="title">
+              Fine Print
+              <div class="info" onclick="showInfo();">CONTACT</div>
+            </div>
+            <div class="tile column" style="border-bottom: 1px solid black;">
+              <div class="description"><span style="font-weight: 400;">THE BRIDGE PAPERS</span> got a chance to speak to Nischal Nadhamuni, an MIT student-entrepreneur. The following exchange has been edited for length and clarity.
+                </div>
+            </div>
+
+            <div class="tile  column">
+              <div class="description">
+                <span style="font-weight: 400;">The Bridge Papers:</span> Hey Nischal! I was wondering if you start out by telling us a little bit about yourself and your company?
+                <p></p>
+                <span style="font-weight: 400;">Nischal:</span> Sure, my name is Nischal and I’m a  senior at MIT. I’m majoring in computer science and I was born in the Bay Area, but mostly grew up in India. I’ve always had an interest in “doing my own thing,” so joining a big company was not really an option. I took an entrepreneurship course at the MIT Sloan School where I met Andrew, a Harvard law-school student cross-registering at MIT. He told me about the excruciating detail with which legal contracts had to be reviewed and got me thinking about how Natural Language Processing could be used to take the pain out of contract review. We had a marathon three-hour chat that same day, and by the end of it, we decided to start a work together, Very early on, I brought my good friend and fellow-MIT student, Logan, on board and thus, Klarity was born. For the next few months we just scoped the space out and tested a couple of NLP approaches with amazing results. We did some primary market research, and quickly realized that we could indeed add tremendous value to the legal contract review.
+                <p></p>
+                <span style="font-weight: 400;"><span style="font-weight: 400;">TBP:</span></span> What kind of response have you seen from potential clients?
+                <p></p>
+                <span style="font-weight: 400;">N:</span> It’s been dramatically positive, especially as lawyers feel pressured to work faster for less money.<p></p>
+                Once they realize that our AI based product can assist in doing many mundane, repetitive tasks, it’s clear to them that their time can be spent on more important and higher value tasks.
+                <p></p>
+                <span style="font-weight: 400;"><span style="font-weight: 400;">TBP:</span></span> Do you feel like the software-as-a-service model you use is something that has staying power, or is there some variability in your future product?
+                <p></p>
+                <span style="font-weight: 400;">N:</span> The fact that SaaS based offerings have been beneficial for individual users and small firms is well known, especially from a pricing and convenience point of view. Increasingly even larger law firms are exploring cloud based SaaS solutions for the flexibility and data-protection offered by cloud providers. The flexibility of legal contract review on-the-tap as opposed to expensive infrastructure capex and multi-year enterprise software contracts makes the choice easy for our clients; SaaS is certainly preferable to signed long term 3-to-5-year contracts.
+                <p></p>
+                <span style="font-weight: 400;">TBP:</span> Do you plan on continuing to develop in the legal industry, or will you branch out into other fields that could benefit from SaaS?
+                <p></p>
+                <span style="font-weight: 400;">N:</span> We need to first execute in the legal sector and prove that AI can bring immense benefits in the contract review (more generally document review) process. For the foreseeable future, we think that we will stay in the legal industry. Firstly, it’s an industry that we understand, and there is a lot of work to be done here. Also, the legal industry is not small. It’s actually pretty massive, pulling in around $430 billion annually in revenue.<p></p>
+                However, there definitely are parallels in the financial services sector where our AI techniques are applicable. For example, the insurance industry has a lot of unstructured text data and would be a good candidate for such a solution.
+                <p></p>
+                <span style="font-weight: 400;">TBP:</span> In terms of the science, what difficulties did you guys have in constructing a system that has to identify phrases with similar meaning despite having disparate phrasing?
+                <p></p>
+                <span style="font-weight: 400;">N:</span> Most machine learning algorithms rely on large number of previous examples of ‘cause and effect’ to learn from.<p></p>
+                I think the big challenges were in acquiring data to train the AI on, and in annotating the data in an efficient manner. You may have the data, but if you’re not able to tell the computer “this clause means this” the AI algorithm cannot learn like a legal expert.<p></p>
+                Also, If we only fed a small number of examples we will end up with biases in our core system.  A large legal dataset of contracts is important to generalize the AI model, making it like an experienced lawyer who has been in business for many years and seen/created a lot of different types of contracts.
+                <p></p>
+                <span style="font-weight: 400;">TBP:</span> Where do you see the field of AI headed, especially in terms of public policy and the legal profession?
+                <p></p>
+                <span style="font-weight: 400;">N:</span> I believe AI is fundamentally going to transform the way we work and live. But more specifically I think that there is a huge potential for disruption and productivity in the legal profession, in allowing lawyers to focus more on the creative and higher-valued services. At the same time, I think that many of the jobs in the legal profession are too complex to be replaced entirely, but that the parts of these jobs that are repetitive and not necessarily cognitively stimulating will get replaced by AI.
+                <p></p>
+                <span style="font-weight: 400;">TBP:</span> As a student entrepreneur in an industry that seems to be placing less and less emphasis on the traditional four-year education, do you think that universities will adapt to the industry or will student founders just have to take on a heavier workload?
+                <p></p>
+                <span style="font-weight: 400;">N:</span> Speaking just from my experience at MIT, I’ve seen students become increasingly interested by entrepreneurship, but I really don’t see students just dropping out in droves.. For every Mark Zuckerberg who drops out, there are thousands of students who graduate and then start their business. While MOOCs and technology will make self-learning widely appealing and perhaps accepted, I still find huge benefits in  face-to-face interaction, quality teachers and classroom learning. I don’t think that  entrepreneurship by itself will be the driver for  structural change in higher education.
+                <p></p>
+                <span style="font-weight: 400;">TBP:</span> Lastly, we've seen that the public perception of AI tends to revolve around industries like self-driving cars and virtual assistants. What are some examples of AI in our daily lives that people may not know about?
+                <p></p>
+                <span style="font-weight: 400;">N:</span> I think a lot of people would be fascinated to know that many of the products consumers use already have significant machine learning components powering them. Everything from Google Search, Apple Siri, Netflix’s movie recommendations, Amazon Echo smart-speaker all use AI. Some 600 google products/tools are now AI enabled and this is just the beginning.
+                <p></p>
+                <span style="font-weight: 400;">TBP:</span> Thanks Nischal!
+                <p></p>
+                <span style="font-weight: 400;">N:</span> Of course, thanks for having me.&#8718;
+                <p></p>
+            </div>
+            </div>
+          </div>
+        <script>
+        function showInfo(){
+        		$(".info").html(function () {
+        			$(".about").css("display","block");
+              $(".contact").css("display","block");
+        			});
+        		$(".about").click(function(){
+              $(".about").css("display","none");
+              $(".contact").css("display","none");
+        			$(".info").off("click");
+        		});
+            $(".contact").click(function(){
+              $(".about").css("display","none");
+              $(".contact").css("display","none");
+        			$(".info").off("click");
+        		});
+            $(".info").click(function () {
+        			$(".about").css("display","none");
+              $(".contact").css("display","none");
+              $(".info").off("click");
+        		});
+        	};
+        </script>
+  </body>
+</html>
