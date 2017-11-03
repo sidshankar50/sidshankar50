@@ -14,7 +14,7 @@ Sid Shankar (code), Jesus Rivera, Farouk Marhaba, Ayush Shah, and Noah Rodelius.
 
 ## Contact
 
-Email sid@projectbreakthecycle.com with any comments or questions.
+Email info@thebridgepapers.com with any comments or questions.
 
 ## License
 
