@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>The Bridge Papers</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+    <link href="articles.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.jkit.1.2.112.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="slide" id="two">
+            <div class="tile contact column">
+              <div class="headline">CONTACT</div>
+              <div class="description">Email us at <a href="mailto:info@thebridgepapers.com">info@thebridgepapers.com</a></div>
+            </div>
+            <div id="scrollTo"></div>
+            <div class="title">
+              Six Homes
+              <div class="info" onclick="showInfo();">CONTACT</div>
+            </div>
+            <div class="tile column">
+              <div class="description"><span style="font-weight: 400;">U.C. Berkeley’s Dr. Alex Saragoza</span> describes how migration is a process that is heavily influenced by class, age, and gender. For example, young men of at least middle class socioeconomic stature beginning college may have a distinct migratory experience. They have the means to return to their parents’ homes for the holidays and to attend colleges far away from their high schools. As young men, they also experience pressure to put up a brave, emotionless front even when they may feel homesick. Here at The Bridge Papers, we aimed to gain a better understanding of the migratory experience of this specific slice of the U.C. Berkeley campus community by interviewing six individuals with a range of ethnicities, sexualities, and national origins.
+              <p>
+              </p>
+              We examined their migratory experience by asking them about their definitions of “home,” their place of belonging. Their responses fit into a framework of viewing “home” as an amalgam of three distinct concepts: location, narrative, and people.
+              <p>
+              </p>
+              As far as the location is concerned, the idea of home is a concept perhaps closest linked to a specific location or structure; some people call their family house their home, while others may find that they more strongly identify with the town or city they were raised in.
+              <p>
+              </p>
+              The narrative of a person’s home is the story of how they came to find that home and if/how they left. This idea closely ties into the idea of immigration as many Americans have a central family story of how their parents or other predecessors arrived in this country and established new lives—some with new names, others with new religions or occupations. The narrative is a platform for people to discuss change and reinvention in the context of creating and maintaining a home.
+              <p>
+              </p>
+              The last topic, people, is a recognition that home can be abstracted from the physical (location) and the symbolic (narrative). The concept of home as manifested in other people is a direct recognition of the idea that home is a social construct that often simply encompasses the situations in which a person is comfortable—in a sense, this is an exploration of the groups in which people feel “at home” in. &#8718;
+                </div>
+            </div>
+            <div class="tile column">
+              <div class="description" style="font-weight: 400; text-align: center;">LOCATION</div>
+              <div class="description">
+                <audio controls>
+                  <source src="location.mp3" type="audio/mpeg">
+                    Error: your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+            <div class="tile column">
+              <div class="description" style="font-weight: 400; text-align: center;">NARRATIVE</div>
+              <div class="description">
+                <audio controls>
+                  <source src="narrative.mp3" type="audio/mpeg">
+                    Error: your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+            <div class="tile column">
+              <div class="description" style="font-weight: 400; text-align: center;">PEOPLE</div>
+              <div class="description">
+                <audio controls>
+                  <source src="people.mp3" type="audio/mpeg">
+                    Error: your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+            <div class="tile column">
+              <div class="description" style="font-weight: 400; text-align: center;">The interviewees, in order of appearance:</div>
+            </div>
+            <div class="tile  column">
+                <img class="photo" src="IMG_1519.jpg" width="100%" alt="Adi (NJ)">
+              </div>
+            <div class="tile column">
+              <div class="caption">1. Adi, from West Windsor-Plainsboro, New Jersey.</div><p></p>
+            </div>
+            <div class="tile  column">
+                <img class="photo" src="IMG_1520.jpg" width="100%" alt="Krishna (NJ)">
+              </div>
+            <div class="tile column">
+              <div class="caption">2. Krishna, from Montgomery, New Jersey.</div><p></p>
+            </div>
+            <div class="tile  column">
+                <img class="photo" src="IMG_1518.jpg" width="100%" alt="Karan (NJ)">
+              </div>
+            <div class="tile column">
+              <div class="caption">3. Karan, from Hillsborough, New Jersey.</div><p></p>
+            </div>
+            <div class="tile  column">
+                <img class="photo" src="IMG_1602.jpg" width="100%" alt="Noah (NC)">
+              </div>
+            <div class="tile column">
+              <div class="caption">4. Noah, from Chapel Hill, North Carolina.</div><p></p>
+            </div>
+            <div class="tile  column">
+                <img class="photo" src="IMG_1517.jpg" width="100%" alt="Drew (Atlanta)">
+              </div>
+            <div class="tile column">
+              <div class="caption">5. Drew, from Atlanta, Georgia.</div><p></p>
+            </div>
+            <div class="tile  column">
+                <img class="photo" src="IMG_1516.jpg" width="100%" alt="Louis (Tokyo)">
+              </div>
+            <div class="tile column">
+              <div class="caption">6. Louis, from Tokyo, Japan.</div><p></p>
+            </div>
+          </div>
+        <script>
+        function showInfo(){
+        		$(".info").html(function () {
+        			$(".about").css("display","block");
+              $(".contact").css("display","block");
+        			});
+        		$(".about").click(function(){
+              $(".about").css("display","none");
+              $(".contact").css("display","none");
+        			$(".info").off("click");
+        		});
+            $(".contact").click(function(){
+              $(".about").css("display","none");
+              $(".contact").css("display","none");
+        			$(".info").off("click");
+        		});
+            $(".info").click(function () {
+        			$(".about").css("display","none");
+              $(".contact").css("display","none");
+              $(".info").off("click");
+        		});
+        	};
+        </script>
+  </body>
+</html>
